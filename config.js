@@ -44,11 +44,6 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.1.0.0' : process.env.VERSION,
   LANG: process.env.THEME|| 'NADEEN-MD',
-  //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94711451319")){
-if(isReact) return
-m.react("👨‍💻")
-	
   WORKTYPE: process.env.WORK_TYPE === undefined ? 'public' : process.env.WORK_TYPE
 };
 
